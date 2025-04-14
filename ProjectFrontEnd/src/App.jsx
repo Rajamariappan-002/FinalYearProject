@@ -15,7 +15,7 @@ function App() {
   const imagesContainerRef = useRef(null);
   const animatingRef = useRef(null);
 
-  const SIMILARITY_THRESHOLD = 0.8;
+  const SIMILARITY_THRESHOLD = 0.75;
 
   // Cleanup function to call backend cleanup endpoint
   const cleanupBackend = async () => {
